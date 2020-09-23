@@ -1,20 +1,17 @@
-# Prediction-of-Bike-Sharing-Patterns
+# Demand Forecasting using Linear Regression
+
 <h2>Project Overview</h2>
 
-Building and Training a Artificial Neural Network(ANN) From Scratch To Predict The Number Of BikeShare Users On a Given Day.Predicting the number of bikeshare riders on a given day is very useful for a bikesharing company Because they want know how many bikes they really need,which can help solve two Potential Problems for the Comapany:<br>
+Building and training a MLR model from scratch to predict the number of shared bike users on a given day. Predicting the number of bikeshare riders on a given day is very useful for a bikesharing company because they want know how many bikes they really need, which can help solve two potential problems for the company:<br>
 
 
+<li><b>If the company too less bikes, then the company is losing money from potential riders.</b></li>
 
-
-
-<li><b>If The Company Has Too Few Bikes,Then The Company Will Be Loosing Money From The Potential Riders.</b></li>
-
-<li><b>If The Company Has Too Many Bikes, Then They Wil Be Wasting Money On Bikes That Are Simply sitting Around.</b></li>
+<li><b>If the company has too many bikes, the company is just wasting money on unused bikes sitting around.</b></li>
 <br>
 
 
-
- Hence the Company has to Know how many bikes it needs in the near future,One of the best ways to predict is by looking at the Historical Data of the Company, A Neural Network model is built from the ground up before going to the higher level implementations of Tensorflow,Pytorch or other Deep Learning frameworks,it also helps to gain the higher level Understanding of forward propogation,gradient descent,backpropagation etc.
+ Hence the company has to know how many bikes it needs in the near future, One of the best ways to predict is by looking at the Historical Data of the Company.
  
  <h2> Dataset </h2>
  
@@ -74,25 +71,9 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 Download the project materials from the GitHub repository by using the Download  option or Clone the github repository.After Dowloading or Cloning Navigate to the Home Folder of the Project.
 
 ```
-git clone https://github.com/ash-code007/Prediction-of-Bike-Sharing-Patterns.git
+git clone https://github.com/ash-code007/Demand-Forecasting-using-Linear-Regression-RFE-VIF-.git
 cd Prediction-of-Bike-Sharing-Patterns
 ```
 Run the following to open up the notebook server:jupyter notebook
 
-In your browser, open Bike_Sharing_Neural_Network.ipynb
-
-Edit the Neural_Network.py python file, whose components are imported into the notebook at various places.
-
-<h2>Results</h2>
-
-<h2>Correlation Between Different Attributes In The Dataset</h2>
-
-![Correlation](https://github.com/ash-code007/Prediction-of-Bike-Sharing-Patterns/blob/master/Bike_Sharing_Dataset/Corr.png)
-
-<h2>Training and Validation Loss</h2>
-
-![Training and Validation Loss](https://github.com/ash-code007/Prediction-of-Bike-Sharing-Patterns/blob/master/Bike_Sharing_Dataset/Train_val.png)
-
-<h2>Predictions On the Test Dataset</h2>
-
-![Predictions](https://github.com/ash-code007/Prediction-of-Bike-Sharing-Patterns/blob/master/Bike_Sharing_Dataset/Pred.png)
+In your browser, open Demand-Forecasting-using-Linear-Regression-RFE-VIF-.ipynb
