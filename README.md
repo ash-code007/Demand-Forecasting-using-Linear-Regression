@@ -71,9 +71,8 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 Download the project materials from the GitHub repository by using the Download  option or Clone the github repository.After Dowloading or Cloning Navigate to the Home Folder of the Project.
 
 ```
-git clone https://github.com/ash-code007/Demand-Forecasting-using-Linear-Regression-RFE-VIF-.git
-cd Prediction-of-Bike-Sharing-Patterns
+git clone https://github.com/ash-code007/Demand-Forecasting-using-Linear-Regression.git
 ```
 Run the following to open up the notebook server:jupyter notebook
 
-In your browser, open Demand-Forecasting-using-Linear-Regression-RFE-VIF-.ipynb
+In your browser, open Project.ipynb
